@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: rgb(2, 62, 122);
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+}
+
+.container{
+    max-width:100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.web{
+   background-color: rgb(230, 238, 246);
+}
+
+
+.header{
+    background-color: rgb(182, 213, 240);
+    color: white;
+    padding: 1rem 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.nav a{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(3, 40, 79);
+}
+
+.name{
+    padding: 0 0 0 200px;
+}
+
+.home{
+    padding: 0 0 0 200px;
+}
+
+
+
+
+.main{
+    padding-top: 180px;
+}
+
+
+.heading{
+    font-size: 50px;
+    letter-spacing:0.8px;
+}
+
+.para{
+    display: grid;
+    grid-template-columns: auto;
+    line-height:2rem ;
+}
+
+.button{
+    background-color:rgb(182, 213, 240) ;
+    color: rgb(2, 62, 122);
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-weight: bolder;
+    border-style: dashed;
+}
+.laundry{
+    display: flex;
+    justify-content: center;
+    align-items:space-evenly;
+    padding: 0px;
+    margin: 0px;
+}
+
+.section1{
+    padding-right:10px;
+}
+.section2 .img{
+    object-fit: cover;
+}
+
+.paragraph{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align:justify ;
+}
